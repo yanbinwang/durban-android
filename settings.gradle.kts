@@ -14,11 +14,9 @@ pluginManagement {
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
-        maven("https://jitpack.io")
-        // 阿里云公共 Maven 镜像（替代 Maven Central）
-        maven("https://maven.aliyun.com/repository/public")
         google()
         mavenCentral()
+        maven("https://jitpack.io")
     }
 }
 
