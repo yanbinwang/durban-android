@@ -37,7 +37,7 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.bundles.android.testing)
     //安卓x库
-    api(libs.bundles.androidx.general.core)
+    implementation(libs.bundles.androidx.general.core)
     //转圈动画
     implementation("com.yanzhenjie:loading:1.0.2")
 }
