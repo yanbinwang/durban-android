@@ -15,6 +15,16 @@ android {
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    // 添加 sourceSets 配置
+    sourceSets.configureEach {
+        java {
+            srcDirs("src/main/java")
+        }
+        resources {
+            srcDirs("src/main/resources")
+        }
+    }
+
     kotlinOptions {
         jvmTarget = "11"
     }
